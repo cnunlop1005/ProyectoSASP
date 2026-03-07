@@ -1,0 +1,46 @@
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box; 
+}
+
+html {
+    background-color: black;
+}
+
+body{
+    background-color: #082826;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #163832;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #DAF1DE;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #A1D1B1;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    color: #A1D1B1;
+}
+
+.indice a {
+    color: #C7E8D2;
+}
