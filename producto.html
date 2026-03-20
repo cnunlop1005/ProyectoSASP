@@ -29,10 +29,28 @@
         <main>
 
             <section id = "compra">
-                <h2>Compra de productos</h2>
-                <p>
-                    Añadir imagenes de productos con boton que diga añadir a la cesta y que con un javascript se añadan a una lista junto con su precio
-                </p>
+                <h2>Encargo de productos</h2>
+                <div id = "productos" class = "productos">
+                    <!-- Añadir imagenes de productos con boton que diga añadir a la cesta y que con un javascript se añadan a una lista junto con su precio -->
+                     <div id = "hardware">
+                        <h3>Hardware</h3>
+                     <label for = "ordenador" class = "producto">Ordenador</label>
+                     <input type = "checkbox" id = "ordenador">
+                     <label for = "teclado" class = "producto">Teclado</label>
+                     <input type = "checkbox" id = "teclado">
+                     <label for = "raton" class = "producto">Ratón</label>
+                     <input type = "checkbox" id = "raton">
+                     </div>
+                     <div id = "software">
+                        <h3>Software</h3>
+                        <label for = "web">Página web</label>
+                        <input type = "checkbox" id = "web">
+                        <label for = "gestion">Programa de gestión de datos</label>
+                        <input type = "checkbox" id = "gestion">
+                        <label for = "estadisticas">Gráficos y galerías</label>
+                        <input type = "checkbox" id = "estadisticas">
+                     </div>
+                </div>
             </section>
 
             <section id = "cesta">
@@ -44,9 +62,15 @@
 
             <section id = "comentarios">
                 <h2>Comentarios</h2>
-                <p>
-                    Añadir section para agregar comentarios
-                </p>
+                <form class = "comentarios">
+                    <label for = "nombre" class = "label">Nombre: </label>
+                    <input type = "text" id = "nombre" placeholder = "Nombre...">
+                    <label for = "email" class = "label">Email: </label>
+                    <input type = "text" id = "email" placeholder = "Email...">
+                    <label for = "comentario" class = "label">Comentario: </label>
+                    <input type = "text" id = "comentario" placeholder = "Escriba aqui su comentario...">
+                    <button class = "btnenviar" id = "btnenviar">Enviar</button>
+                </form>
             </section>
 
             <section class = "vuelta">

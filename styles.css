@@ -48,3 +48,45 @@ ul {
 .vuelta a {
     color: cadetblue;
 }
+
+.comentarios {
+    display: grid;
+    width: 425px;
+    gap: 10px;
+    border: 1px solid #C7E8D2;
+    padding: 10px;
+    background-color: #163832;
+}
+
+#nombre {
+    width: 400px;
+}
+
+#email {
+    width: 400px;
+}
+
+#comentario {
+    height: 100px;
+    width: 400px;
+}
+
+.label {
+    color: #A1D1B1;
+}
+
+.btnenviar {
+    width: 400px;
+}
+
+.productos {
+    display: grid;
+    width: 500px;
+    gap: 10px;
+    border: 1px solid #C7E8D2;
+    padding: 10px;
+    background-color: #163832;
+    color: #A1D1B1;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+}
