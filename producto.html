@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="styles.css">
 	
 	    <!-- JavaScript -->
-        <script src="js/main.js" defer></script>
+        <script src="main.js" defer></script>
     </head>
     <body>
         <!-- ===== HEADER ===== -->
@@ -32,32 +32,38 @@
                 <h2>Encargo de productos</h2>
                 <div id = "productos" class = "productos">
                     <!-- Añadir imagenes de productos con boton que diga añadir a la cesta y que con un javascript se añadan a una lista junto con su precio -->
-                     <div id = "hardware">
+                    <div id = "hardware">
                         <h3>Hardware</h3>
-                     <label for = "ordenador" class = "producto">Ordenador</label>
-                     <input type = "checkbox" id = "ordenador">
-                     <label for = "teclado" class = "producto">Teclado</label>
-                     <input type = "checkbox" id = "teclado">
-                     <label for = "raton" class = "producto">Ratón</label>
-                     <input type = "checkbox" id = "raton">
-                     </div>
-                     <div id = "software">
+                        <img src = "ordenador.png">
+                        <label for = "ordenador" class = "producto">Ordenador</label>
+                        <input type = "checkbox" id = "ordenador">
+                        <img src = "teclado.png">
+                        <label for = "teclado" class = "producto">Teclado</label>
+                        <input type = "checkbox" id = "teclado">
+                        <img src = "raton.png">
+                        <label for = "raton" class = "producto">Ratón</label>
+                        <input type = "checkbox" id = "raton">
+                    </div>
+                    <div id = "software">
                         <h3>Software</h3>
+                        <img src = "web.png">
                         <label for = "web">Página web</label>
                         <input type = "checkbox" id = "web">
+                        <img src = "gestion.png">
                         <label for = "gestion">Programa de gestión de datos</label>
                         <input type = "checkbox" id = "gestion">
+                        <img src = "galeria.png">
                         <label for = "estadisticas">Gráficos y galerías</label>
                         <input type = "checkbox" id = "estadisticas">
-                     </div>
+                    </div>
                 </div>
             </section>
 
             <section id = "cesta">
                 <h2>Cesta</h2>
-                <p>
-                    Mostrar productos a comprar y la cantidad total a pagar
-                </p>
+                <ul id = "listaCesta">
+                    
+                </ul>
             </section>
 
             <section id = "comentarios">

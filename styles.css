@@ -81,7 +81,7 @@ ul {
 
 .productos {
     display: grid;
-    width: 500px;
+    width: 600px;
     gap: 10px;
     border: 1px solid #C7E8D2;
     padding: 10px;
